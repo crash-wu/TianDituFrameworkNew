@@ -1,18 +1,20 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B1F793DE789F29B1328DCA2AA72B2FD02C2F5313",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E2A66F44AEB5C4EF85C299060F1C7D746C0F79EE",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "43249C8B5D41FF582A187F4BC82A084664E44DA5" : 0,
     "B6C396EF6601AE704693A73A493E4E7BAF743747" : 0,
-    "B1F793DE789F29B1328DCA2AA72B2FD02C2F5313" : 0,
-    "43249C8B5D41FF582A187F4BC82A084664E44DA5" : 0
+    "E2A66F44AEB5C4EF85C299060F1C7D746C0F79EE" : 0,
+    "B1F793DE789F29B1328DCA2AA72B2FD02C2F5313" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "51D0AC88-9624-4FE2-A086-E3F65E798D01",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "43249C8B5D41FF582A187F4BC82A084664E44DA5" : "TianDituFramework%20\/TianDituFramework\/SouthgisLogger\/",
     "B6C396EF6601AE704693A73A493E4E7BAF743747" : "TianDituFramework%20\/TianDituFramework\/SouthgisTileLayer\/",
-    "B1F793DE789F29B1328DCA2AA72B2FD02C2F5313" : "TianDituFramework%20\/",
-    "43249C8B5D41FF582A187F4BC82A084664E44DA5" : "TianDituFramework%20\/TianDituFramework\/SouthgisLogger\/"
+    "E2A66F44AEB5C4EF85C299060F1C7D746C0F79EE" : "TianDituFrameworkNew\/",
+    "B1F793DE789F29B1328DCA2AA72B2FD02C2F5313" : "TianDituFramework%20\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "TianDituFramework",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -32,6 +34,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/crash-wu\/SouthgisTileLayer.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B6C396EF6601AE704693A73A493E4E7BAF743747"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/crash-wu\/TianDituFrameworkNew.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E2A66F44AEB5C4EF85C299060F1C7D746C0F79EE"
     }
   ]
 }
