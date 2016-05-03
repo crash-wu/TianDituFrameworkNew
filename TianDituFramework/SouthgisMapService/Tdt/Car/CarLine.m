@@ -1,0 +1,13 @@
+//
+//  CarLineEntity.m
+//  TianDituFramework
+//
+//  Created by 吴小星 on 16/3/17.
+//  Copyright © 2016年 crash. All rights reserved.
+//
+
+#import "CarLine.h"
+
+@implementation CarLine
+
+@end

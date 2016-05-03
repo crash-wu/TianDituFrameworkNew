@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B1F793DE789F29B1328DCA2AA72B2FD02C2F5313",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B1F793DE789F29B1328DCA2AA72B2FD02C2F5313" : 0,
+    "43249C8B5D41FF582A187F4BC82A084664E44DA5" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "81E539E0-7870-44D6-9162-9745A54C9B0C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B1F793DE789F29B1328DCA2AA72B2FD02C2F5313" : "TianDituFramework%20\/",
+    "43249C8B5D41FF582A187F4BC82A084664E44DA5" : "TianDituFramework%20\/TianDituFramework\/SouthgisLogger\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TianDituFramework",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TianDituFramework.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/crash-wu\/SouthgisLogger.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "43249C8B5D41FF582A187F4BC82A084664E44DA5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/crash-wu\/TianDituFramework.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B1F793DE789F29B1328DCA2AA72B2FD02C2F5313"
+    }
+  ]
+}
