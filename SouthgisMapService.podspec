@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SouthgisMapService"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "Southgis Map Service .Such as POI search ,Bus Line Search ,Car Line Search."
 
   # This description is used to generate tags and improve search results.
@@ -89,8 +89,50 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "TianDituFramework/SouthgisMapService", "*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+    s.source_files  = "*.{h,m}"
+    s.subspec 'BD' do |bd|
+        bd.source_files = "*.{h,m}"
+
+        bd.subspec 'BUS' do |bus|
+            bus.source_files = "*.{h,m}"
+        end
+
+        bd.subspec 'Car' do |car|
+            car.source_files = "*.{h,m}"
+
+            car.subspec 'AccuraterResult' do |acc|
+                acc.source_files = "*.{h,m}"
+            end
+
+            car.subspec 'FuzzyResult' do |fuzz|
+                fuzz.source_files = "*.{h,m}"
+            end
+        end
+
+        bd.subspec 'POI' do |poi|
+            poi.source_files = "*.{h,m}"
+        end
+    end
+
+    s.subspec 'Tdt' do |tdt|
+
+        tdt.source_files = "*.{h,m}"
+
+        tdt.subspec 'BUS' do |bus|
+            bus.source_files = "*.{h,m}"
+        end
+
+        tdt.subspec 'Car' do |car|
+            car.source_files = "*.{h,m}"
+        end
+
+        tdt.subspec 'POI' do |poi|
+            poi.source_files = "*.{h,m}"
+        end
+
+    end
+
+  #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -128,7 +170,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+    s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
